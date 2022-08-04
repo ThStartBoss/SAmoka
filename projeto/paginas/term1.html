@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.83.1">
+    <title>Leis Termodinâmica</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+
+    <link rel="icon" href="termodinamica.png">
+
+    <!-- Bootstrap core CSS -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        
+        text-anchor: middle;
+        
+        -webkit-user-select: none;
+        
+        -moz-user-select: none;
+        
+        user-select: none;
+      }
+
+      #divTexto
+      {
+
+        color: #cccccc;
+        text-align: justify;
+        
+
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          
+          font-size: 3.5rem;
+        }
+      }
+
+      .titulo
+      {
+        color: #00CED1;
+        
+        font-weight: bold;
+      }
+
+      .subtitulo
+      {
+        color: rgb(255, 255, 255);
+        
+        font-size: 14px;
+      }
+
+      .corFundo1
+      {
+        background-color:#000000;
+      }
+
+      .textoimagem
+      {
+        font-weight: bold;
+        
+        color: red;
+      }
+      #ParteInferior{
+        
+       
+       
+        background-color: #000000;
+
+        
+      }
+
+      #divBorda{
+
+        border: solid;
+        
+        padding: 5px;
+        
+        margin-top:10px;
+
+        margin-left: 140px;
+        
+        margin-right: 140px;
+        
+        margin-bottom: 10px;
+        
+        background-color:#000000 ;
+        
+        border-radius: 10px;
+
+      }
+      #divmenu
+      {
+      
+      width:100%;
+      
+      height:100px;
+      
+      background-color:#000000;
+        
+      }
+
+      img{
+       
+        margin-right: 0px;
+
+
+        }
+      
+     
+     body{
+      background-color: #aa905f;
+     }
+
+     p{
+
+      
+      font-size: 25px;
+      margin-left: 200px;
+      
+      margin-right: 200px;
+      
+      margin-top: 10px;
+      
+      font-weight: bold;
+
+     }
+     .topico1{
+      margin-right: 50px;
+      margin-left: 50px;
+     }
+     
+     .conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 15px;
+   
+
+}  
+    .conteudo img{
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 15px;
+}
+
+     .back
+     {
+      border: solid;
+
+        margin-top:10px;
+
+
+        border-radius: 10px;
+
+        margin-left: 335px;
+        margin-right: 335px;
+     }
+
+     .sesi
+     {
+      width: 100px;
+
+      margin-right: 20px;
+     }
+     .voltar{
+      margin-left: 700px;
+      margin-top: 200px;
+     }
+     
+
+
+
+
+     .menu{/* Rótulo do menu*/
+      list-style:none; /*tirar marcação dos itens*/
+      border:0px solid #800000;/*borda do menu */ 
+      float:left; 
+      margin-right:10px;
+      margin-left: 300px;
+      
+      }
+    /*formatando itens de menu*/
+    .menu li{position:relative; 
+           float:left; 
+           border-right:1px solid#ffffff;
+        
+        }
+    /* Rótulo do menu em bloco*/
+    .menu li a{color:#aa905f; 
+      text-decoration:none; /*tira o sublinhado*/
+      padding:5px 20px; 
+      display:block;
+      font-size: 20px;
+          }
+    /* Rótulo menu ao passar o mouse  */
+    .menu li a:hover{
+      background:#cccccc; 
+      color:#aa905f; 
+      text-shadow:0px 0px 5px #fff; 
+      border-radius: 20px;
+      
+      
+    }
+    /*escondendo submenu*/
+    .menu li  ul{
+      position:absolute; 
+      top:10px; 
+      left:0;
+      background-color:#5C5C5C; 
+      display:none;/*esconde a sublista*/
+    } 
+    /* exibindo submenu*/
+    .menu li:hover ul, .menu li.over ul{
+      display:block;
+    }
+    /* retirando os marcadores das listas */
+    .menu li ul li{
+      border:0px solid #c0c0c0; 
+      display:block; 
+      width:150px;
+      left:-40px;
+      margin-right: -50px;
+    }
+
+
+    </style>
+
+
+    
+  </head>
+  <body>
+    
+<header>
+
+  <div class="navbar navbar-dark corFundo1 shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <img src="LogoMokaC.png" href="#https://www.sesisp.org.br/s" class="sesi"> &nbsp &nbsp &nbsp 
+        <strong><center>SA Termodinâmica</center></strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+  <div id="divmenu">
+      <nav><ul class="menu">
+
+        <li><a href="index.html" class="topico1">Home</a></li>
+        <li><a href="term2.html" class="topico1">(2°) Segunda Lei</a></li>
+        <li><a href="aplicacoes.html" class="topico1">Aplicações</a></li>
+        <li><a href="video.html" class="topico1">Vídeos</a></li>
+        <li><a href="calcu.html" class="topico1">Calculadora</a></li>
+    
+        
+    
+        
+        
+      </div>
+
+
+  
+
+ 
+<div id="carouselExampleSlidesOnly" class="carousel slide back" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="Industrias_timmerman_logo.gif" alt="Primeiro Slide">
+    </div>
+    
+  </div>
+</div>
+ <div id="divBorda">
+  <div id="divTexto">   
+
+    
+    <div class = "texto">
+      <p> Então, a primeira lei da termodinâmica é a lei da conservação da energia, que pode ser expressa como: A variação da energia interna do sistema ΔU é expressa como a diferença entre o calor Q trocado com o ambiente e o trabalho W realizado em o processo de conversão. Um bom exemplo na vida cotidiana é o aquecimento a gás para fazer uma máquina funcionar, por exemplo, para realizar um trabalho em uma fábrica. Isso acontece da seguinte forma: os gases transferem energia para dentro da máquina, o que faz com que eles aumentem de volume e a partir daí acionem os mecanismos da máquina. Fórmula: Q = τ + ΔU onde, Q: calor: T trabalho ΔU: variação da energia interna ΔU = Q - W
+
+      </p>
+
+      <br>
+
+</div>
+
+ </div>
+  
+
+  
+
+</header>
+
+
+
+ 
+<div id="ParteInferior">
+ 
+  <img src="SesiPreto.png" href="#https://www.sesisp.org.br/s" class="sesi"> &nbsp &nbsp &nbsp 
+
+<footer class="text-muted py-5">
+  
+ 
+  <footer class="text-muted ">
+  <div class="container">
+    
+    <p class="mb-1"><center>&copy; Bootstrap</center> </p>
+    
+ 
+
+    
+  </div>
+</div>
+</footer>
+<script src="../js/bootstrap.bundle.min.js"></script>
+</div>
+      
+  </body>
+</html>
